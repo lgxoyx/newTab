@@ -1,0 +1,47 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input, select, textarea,p,blockquote,th,td {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  font-size: 14px;
+  font-family:"微软雅黑",Arial;
+  background:#fff;
+  color: #303030;
+  -webkit-text-size-adjust:100%;
+}
+h1, h2, h3, h4, h5, h6{
+  font-size:100%;
+}
+a{
+  color:#303030;
+  text-decoration:none;
+}
+ul,ol{
+  list-style-type:none;
+}
+li{
+  list-style:none;
+}
+select,input,img,select{
+  vertical-align:middle;
+}
+img{
+  vertical-align:middle;
+}
+select,input,button{
+  outline: none;
+}
+.clearfix:after{
+  content:".";
+  display:block;
+  height:0;
+  clear:both;
+  visibility:hidden;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
