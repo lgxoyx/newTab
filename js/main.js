@@ -20,7 +20,6 @@ let vm=new Vue({
   },
   methods:{
     windowResize:function(){
-
       let height=document.documentElement.clientHeight;//获得浏览器窗口的高度
       return this.windowHeight=height-50;
     }
@@ -31,7 +30,6 @@ window.onresize=function(){
   vm.windowResize();
 }
 //
-
-document.ready=function(){
-  console.log('1')
+window.onload=function () {
+  vm.windowResize();
 }
